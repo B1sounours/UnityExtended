@@ -1,6 +1,8 @@
 [submodule "Unity/Assets/UnityToolbag"]
 	path = Unity/Assets/UnityToolbag
 	url = https://github.com/nickgravelyn/UnityToolbag.git
+    ignore = dirty
 [submodule "Unity/Assets/ChestOfPropertyDrawers"]
 	path = Unity/Assets/ChestOfPropertyDrawers
 	url = git@github.com:tenpn/ChestOfPropertyDrawers.git
+    ignore = dirty
