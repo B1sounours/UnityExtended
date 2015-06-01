@@ -1,4 +1,8 @@
-# From http://kleber-swf.com/the-definitive-gitignore-for-unity-projects/
+# ======================== #
+# Unity Project .gitignore #
+# ======================== #
+# Please place in the top-level folder for your Unity project.
+# (e.g. same folder as Assets and ProjectSettings)
 
 # =============== #
 # Unity generated #
@@ -34,9 +38,8 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-# plus some of @terrehbyte's stuff
-
-# UnityVS
-*/UnityVS/
-UnityVS.meta
-*.sln.DotSettings
+# ======= #
+# UnityVS #
+# ======= #
+**/UnityVS/Editor/*
+!SyntaxTree.*
